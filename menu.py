@@ -37,8 +37,10 @@ button14 = Button(labelFrame1, text=14, width=5, font=('Arial', 25), command=ok.
 button14.grid(column=1, row=4)
 button15 = Button(labelFrame1, text="Close", width=5, font=('Arial', 25), command=window.destroy)
 button15.grid(column=0, row=5, columnspan=3, sticky='ew')
+button16 = Button(labelFrame1, text='Stop', width=5, font=('Arial', 25), command=ok.cancelTool)
 label1 = Label(window, text="Van Bien Pro", font=("Algerian", 20))
 label1.pack(side=BOTTOM)
+
 
 
 

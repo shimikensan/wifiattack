@@ -27,3 +27,5 @@ def attackChannel13():
     os.system('mdk3 wlx00c0caab5603 d -c 13')
 def attackChannel14():
     os.system('mdk3 wlx00c0caab5603 d -c 14')
+def cancelTool():
+    os.system('kill -2')
